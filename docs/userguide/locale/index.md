@@ -180,7 +180,7 @@ ICU is implemented as a set of services. One example of a service is the
 formatting of a numeric value into a string. Another is the sorting of a list of
 strings. When client code wants to use a service, the first thing it does is
 request a service object for a given locale. The resulting object is then
-expected to perform the its operations in a way that is culturally correct for
+expected to perform its operations in a way that is culturally correct for
 the requested locale.
 
 ### Requested Locale
